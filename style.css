@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('img/rok.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 350px;
+
+}
+.container img{
+width: 400px;
+height: auto;
+}
+
+header {
+  background-color: #005580;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0;
+  padding: 10px;
+}
+
+nav a {
+  color: #005580;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #005580;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 20px 0;
+  padding: 10px;
+  border-left: 2px solid #ccc;
+}
+
+footer {
+  background-color: #005580;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+  nav {
+  display: none;
+  }
+  
+  nav ul {
+  flex-direction: column;
+  }
+  
+  nav li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  }
+  
+  nav a {
+  font-size: 16px;
+  }
+  }
+  
+  @media (max-width: 480px) {
+  main {
+  padding: 10px;
+  }
+  }
+  
+  
